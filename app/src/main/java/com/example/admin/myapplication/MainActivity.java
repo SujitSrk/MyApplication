@@ -55,18 +55,18 @@ public class MainActivity extends AppCompatActivity {
 
     protected  void onRestart(){
         super.onRestart();
-        Log.i("Lifecycle", "On Resume");
+        Log.i("Lifecycle", "On Restart");
     }
 
     protected  void onStop(){
         super.onStop();
-        Log.i("Lifecycle", "On Resume");
+        Log.i("Lifecycle", "On Stop");
     }
 
 
     protected  void onDestroy(){
         super.onDestroy();
-        Log.i("Lifecycle", "On Resume");
+        Log.i("Lifecycle", "On Destroy");
     }
 
 
